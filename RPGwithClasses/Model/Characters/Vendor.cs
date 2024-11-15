@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGwithClasses.Model.Character
+namespace RPGwithClasses.Model.Characters
 {
     internal class Vendor : Character
     {

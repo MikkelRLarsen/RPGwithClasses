@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RPGwithClasses.Model.Items.Weapons;
 
-namespace RPGwithClasses.Model.Character
+namespace RPGwithClasses.Model.Characters.StatsbasedCharacters
 {
-    internal abstract class StatsbasedCharacters : Character
+    internal abstract class StatsbasedCharacter : Character
     {
         public int? StatsbasedCharactersID { get; protected set; }
         public int Level { get; protected set; }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGwithClasses.Model
+namespace RPGwithClasses.Model.Items.Potions
 {
-    internal class AbilitiesType
+    internal class PotionType
     {
-        public int AbilitiesTypeID { get; private set; }
+        public int PotionTypeID { get; private set; }
         public string? Type { get; private set; }
     }
 }

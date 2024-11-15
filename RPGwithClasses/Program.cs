@@ -1,4 +1,4 @@
-﻿using RPGwithClasses.Model.Character;
+﻿using RPGwithClasses.Model.Characters;
 
 namespace RPGwithClasses
 {

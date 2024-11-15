@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGwithClasses.Model
+namespace RPGwithClasses.Model.Characters.StatsbasedCharacters.CombatClasses
 {
     internal class Resourcetype
     {

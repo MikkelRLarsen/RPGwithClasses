@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGwithClasses.Model
+namespace RPGwithClasses.Model.Characters.StatsbasedCharacters.CombatClasses.Abilities
 {
-    internal class Abilities
+    internal class Ability
     {
-        public int AbilitiesID { get; private set; }
+        public int AbilityID { get; private set; }
         public int Cost { get; private set; }
-        public AbilitiesType? Type { get; private set; }
+        public AbilityType? Type { get; private set; }
         public int LevelRequirements { get; set; }
         public int ClassRequirements { get; set; }
     }
