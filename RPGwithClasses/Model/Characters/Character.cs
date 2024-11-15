@@ -13,6 +13,6 @@ namespace RPGwithClasses.Model.Characters
         public int? CharacterID { get; protected set; }
         public string? Name { get; protected set; }
         public Game Game { get; protected set; }
-        public Inventory Inventory { get; set; }
+        public Inventory Inventoryeee { get; set; }
     }
 }
